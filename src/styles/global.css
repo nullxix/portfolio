@@ -1,0 +1,12 @@
+* {
+    font-family: sans-serif;
+}
+
+#root, body, html{
+    background: #eeeeee
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
