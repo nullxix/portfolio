@@ -1,8 +1,23 @@
 import React from 'react'
-import withClipper from '../components/withClipper.js'
+import Clipper from '../components/Clipper.js'
+import goodcookiePreview from '../previews/goodcookie-preview.png'
+import storyPreview from '../previews/story-preview.png'
 
 export default props => {
 
+    const goodcookieDeets = {
+        main: 'https://nick.pink/goodcookie',
+        title: 'goodcookie',
+        blurb: 'Battling \'click here to enable cookies\' notifications using, well . . . cookies',
+        github: 'https://github.com/nullxix/goodcookie-site',
+    }
+
+    const storyDeets = {
+        main: 'https://mywebsitecanbeatupyour.website/story',
+        title: 'Coactive Book',
+        blurb: 'Cooperative story-writing that only allows single-word submissions',
+        github: 'https://github.com/nullxix/story-front'
+    }
     return (
         <div
             style={{
@@ -10,11 +25,11 @@ export default props => {
                 flexDirection: 'column',
             }}
         >
-            {withClipper(props => <img {...props} src='https://source.unsplash.com/8uZPynIu-rQ'/>, {i: 0, left: true})}
-            {withClipper(props => <img {...props} src='https://source.unsplash.com/35sVnCCynWA'/>, {i: 1})}
-            {withClipper(props => <img {...props} src='https://source.unsplash.com/ruJm3dBXCqw'/>, {i: 2})}
-            {withClipper(props => <img {...props} src='https://source.unsplash.com/V2OyJtFqEtY'/>, {i: 3})}
-            {withClipper(props => <img {...props} src='https://source.unsplash.com/a4GET0s82rI'/>, {i: 4})}
+            <Clipper props={props} imgSrc ={goodcookiePreview} data={{i: 0, left: true, deets: goodcookieDeets}}/>
+            <Clipper props={props} imgSrc ={storyPreview} data={{i: 1, deets: storyDeets}}/>
+            {/* <Clipper props={props} imgSrc ={'https://source.unsplash.com/ruJm3dBXCqw'} data={{i: 2, deets: goodcookieDeets}}/>
+            <Clipper props={props} imgSrc ={'https://source.unsplash.com/V2OyJtFqEtY'} data={{i: 3, deets: goodcookieDeets}}/>
+            <Clipper props={props} imgSrc ={'https://source.unsplash.com/a4GET0s82rI'} data={{i: 4, deets: goodcookieDeets}}/> */}
         </div>
         
     )

@@ -3,7 +3,9 @@
 }
 
 #root, body, html{
-    background: #eeeeee
+    /* background: #eeeeee */
+    background: rgb(70, 53, 34);
+    color: rgb(202, 178, 151);
 }
 
 a {
