@@ -5,6 +5,6 @@ export default styled.div`
     position: absolute;
     color: black;
     left: 12%;
-    width: 20%;
+    width: 28%;
     top: 30%;
 `

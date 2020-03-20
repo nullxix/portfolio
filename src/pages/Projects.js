@@ -1,7 +1,7 @@
 import React from 'react'
 import Clipper from '../components/Clipper.js'
 import goodcookiePreview from '../previews/goodcookie-preview.png'
-import storyPreview from '../previews/story.png'
+import storyPreview from '../previews/story-preview.png'
 
 export default props => {
 
@@ -14,9 +14,9 @@ export default props => {
 
     const storyDeets = {
         main: 'https://mywebsitecanbeatupyour.website/story',
-        title: 'The Covalent Story',
+        title: 'Coactive Book',
         blurb: 'Cooperative story-writing that only allows single-word submissions',
-        github: 'https://github.com/nullxix/story'
+        github: 'https://github.com/nullxix/story-front'
     }
     return (
         <div
