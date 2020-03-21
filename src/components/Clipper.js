@@ -99,19 +99,18 @@ export default ({props, imgSrc, data}) => {
                             component='div'
                             style={{
                                 width: `${outerWidth}%`,
-                                height: '100%',
-                                
+                                height: '100%',  
                             }}
                             defaultStyle = {{
                                 background: `linear-gradient(
                                     rgba(50, 0, 109, 0), 
-                                    rgba(50, 0, 109, 0.25)
+                                    rgba(50, 0, 109, 0.0)
                                   ), url(${imgSrc})`,
                             }}
                             activeStyle = {{
                                 background: `linear-gradient(
                                     rgba(50, 0, 109, 0), 
-                                    rgba(50, 0, 109, 0.45)
+                                    rgba(50, 0, 109, 0.25)
                                   ), url(${imgSrc})`,
                             }}
                             onClick={toggleEverything}
@@ -135,8 +134,8 @@ export default ({props, imgSrc, data}) => {
                                     src={imgSrc}
                                     style={{
                                         // clipPath: 'inherit',
-                                        width: `${outerWidth}%`,
-                                        // height: `${realHeight}px`,
+                                        // width: `${outerWidth}%`,
+                                        width: '80vw',
                                         objectFit: 'cover',
                                     }}
                                     onClick={toggleEverything}

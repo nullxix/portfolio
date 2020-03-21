@@ -3,7 +3,11 @@ import React from 'react'
 export default props => {
 
     return (
-        <div>
+        <div
+            style = {{
+                textAlign: 'center',
+            }}
+        >
             {props.children}
         </div>
     )

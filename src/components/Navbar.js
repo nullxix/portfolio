@@ -9,21 +9,28 @@ export default props => {
             style={{
                 display: 'flex',
                 justifyContent: 'space-around',
-                padding: '10px'
+                alignItems: 'center',
+                flexDirection: 'row',
+                padding: '20px',
+                paddingTop: '40px',
+                marginBottom: '110px',
             }}
         >
+            
             <Link to="/"><Title/></Link>
             <div
                 style={{
                     display: 'flex',
-                    justifyContent: 'space-around',
-                    width: '70%',
-                    paddingTop: '24px'
+                    justifyContent: 'center',
+                    alignItems: 'flex-end',
+                    flexDirection: 'column',
+                    width: '60%',
                 }}
             >
-                <Link to='/projects'><NavItem>Projects</NavItem></Link>
+                <NavItem>( web developer )</NavItem>
+                {/* <Link to='/projects'><NavItem>Projects</NavItem></Link>
                 {/* <Link to='/websites'><NavItem>Websites</NavItem></Link> */}
-                <Link to='/hire'><NavItem>Hire</NavItem></Link>
+                {/* <Link to='/hire'><NavItem>Hire</NavItem></Link> */} 
                 {/* <Link to='/else'><NavItem>Everything Else</NavItem></Link> */}
             </div>
         </div>

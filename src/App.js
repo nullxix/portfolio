@@ -19,6 +19,7 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
+          <Route path='/'><Projects/></Route>
           <Route path='/hire'><Resume/></Route>
           <Route path='/resume'><Resume/></Route>
           <Route path='/projects'><Projects/></Route>

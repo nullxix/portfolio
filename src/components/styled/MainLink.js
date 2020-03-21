@@ -14,7 +14,7 @@ const Styled = styled.a`
 export default props => {
 
     return (
-        <Styled href={props.href}>
+        <Styled href={props.href} target="_blank">
             {props.children}
         </Styled>
     )
