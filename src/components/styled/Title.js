@@ -5,5 +5,5 @@ export default styled.div`
     position: absolute;
     color: black;
     left: 12%;
-    top: 20px;
+    top: 35px;
 `
