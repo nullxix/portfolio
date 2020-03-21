@@ -4,8 +4,11 @@
 
 #root, body, html{
     /* background: #eeeeee */
+    background: rgb(51, 39, 24);
     background: rgb(70, 53, 34);
-    color: rgb(202, 178, 151);
+    background: rgb(1, 7, 10);
+    color: rgb(219, 203, 183);
+    color: rgb(236, 117, 38);
 }
 
 a {

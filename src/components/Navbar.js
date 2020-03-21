@@ -16,14 +16,15 @@ export default props => {
             <div
                 style={{
                     display: 'flex',
-                    justifyContent: 'space-around',
+                    justifyContent: 'flex-start',
                     width: '70%',
                     paddingTop: '24px'
                 }}
             >
-                <Link to='/projects'><NavItem>Projects</NavItem></Link>
+                <NavItem>( web developer )</NavItem>
+                {/* <Link to='/projects'><NavItem>Projects</NavItem></Link>
                 {/* <Link to='/websites'><NavItem>Websites</NavItem></Link> */}
-                <Link to='/hire'><NavItem>Hire</NavItem></Link>
+                {/* <Link to='/hire'><NavItem>Hire</NavItem></Link> */} 
                 {/* <Link to='/else'><NavItem>Everything Else</NavItem></Link> */}
             </div>
         </div>

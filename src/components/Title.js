@@ -10,8 +10,7 @@ export default props => {
                 padding: '0 0 0.25em 0' 
             }}
         >
-            Nicholas <br/>
-            Black
+            NIX BLACK
         </div>
     )
 }
