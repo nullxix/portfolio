@@ -9,16 +9,22 @@ export default props => {
             style={{
                 display: 'flex',
                 justifyContent: 'space-around',
-                padding: '10px'
+                alignItems: 'center',
+                flexDirection: 'row',
+                padding: '20px',
+                paddingTop: '40px',
+                marginBottom: '110px',
             }}
         >
+            
             <Link to="/"><Title/></Link>
             <div
                 style={{
                     display: 'flex',
-                    justifyContent: 'flex-start',
-                    width: '70%',
-                    paddingTop: '24px'
+                    justifyContent: 'center',
+                    alignItems: 'flex-end',
+                    flexDirection: 'column',
+                    width: '60%',
                 }}
             >
                 <NavItem>( web developer )</NavItem>

@@ -6,9 +6,10 @@
     /* background: #eeeeee */
     background: rgb(51, 39, 24);
     background: rgb(70, 53, 34);
-    background: rgb(1, 7, 10);
+    background: rgb(0, 0, 0);
     color: rgb(219, 203, 183);
-    color: rgb(236, 117, 38);
+    color: rgb(68, 220, 240);
+    color: hsl(48, 100%, 96%);
 }
 
 a {

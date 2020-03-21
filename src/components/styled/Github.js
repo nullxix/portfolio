@@ -20,7 +20,7 @@ const Cat = styled.img`
 export default props => {
 
     return (
-        <Git href={props.href}>
+        <Git href={props.href} target="_blank">
             <Cat src={Octocat}/> view github
         </Git>
     )
