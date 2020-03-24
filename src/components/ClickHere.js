@@ -8,7 +8,7 @@ export default props => {
     if(props.display)
         setTimeout(() => {
             setDisplayArrow(true)
-        }, 450)
+        }, 250)
 
     return (
         <div
