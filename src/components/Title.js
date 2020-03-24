@@ -6,8 +6,8 @@ export default props => {
         <div
             style={{
                 fontSize: '32px',
-                width: '12em',
-                padding: '0 0 0.25em 0' 
+                // width: '12em',
+                padding: '0 0 0.25em 0.25em' 
             }}
         >
             Nix Black

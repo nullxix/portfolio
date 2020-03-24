@@ -7,11 +7,11 @@ export default props => {
     return (
         <div
             style={{
+                boxSizing: 'border-box',
                 display: 'flex',
                 justifyContent: 'space-around',
                 alignItems: 'center',
                 flexDirection: 'row',
-                padding: '20px',
                 paddingTop: '40px',
                 marginBottom: '110px',
             }}
