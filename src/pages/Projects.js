@@ -24,7 +24,7 @@ export default props => {
 
     setTimeout(() => {
         setDisplayClick(true)
-    }, 2500)
+    }, 3800)
 
     return (
         <div
