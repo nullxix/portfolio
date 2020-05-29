@@ -9,7 +9,7 @@ export default props => {
             style={{
                 boxSizing: 'border-box',
                 display: 'flex',
-                justifyContent: 'space-around',
+                justifyContent: 'flex-end',
                 alignItems: 'center',
                 flexDirection: 'row',
                 paddingTop: '40px',
@@ -21,13 +21,14 @@ export default props => {
             <div
                 style={{
                     display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'flex-end',
+                    justifyContent: 'flex-start',
+                    alignItems: 'flex-start',
                     flexDirection: 'column',
                     width: '60%',
+                    margin: '20px',
                 }}
             >
-                <NavItem>( web developer )</NavItem>
+                <NavItem style={{transitionDelay: "0.54s"}}>{''} ← writes code  {''}</NavItem>
                 {/* <Link to='/projects'><NavItem>Projects</NavItem></Link>
                 {/* <Link to='/websites'><NavItem>Websites</NavItem></Link> */}
                 {/* <Link to='/hire'><NavItem>Hire</NavItem></Link> */} 

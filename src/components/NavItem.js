@@ -7,6 +7,7 @@ export default props => {
             style = {{
                 textAlign: 'center',
             }}
+            {...props}
         >
             {props.children}
         </div>
