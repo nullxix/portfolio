@@ -1,5 +1,9 @@
 * {
     font-family: sans-serif;
+    transition: all 0.34s linear;
+    -moz-transition: all 0.34s linear; /* Firefox 4 */
+    -webkit-transition: all 0.34s linear; /* Safari 和 Chrome */
+    -o-transition: all 0.34s linear; /* Opera */
 }
 
 #root, body, html{
